@@ -237,7 +237,7 @@
     },
     {
       "ques": "fuction ",
-      "ans":"A function is a block of code that performs a specific task.",
+      "ans":"A function is a block of code that performs a specific task."
 
     },
     {
@@ -252,7 +252,7 @@
     },
     {
       "ques": "JavaScript Hoisting ",
-      "ans":"Hoisting in JavaScript is a behavior in which a function or a variable can be used before declaration. For example,In terms of variables and constants, keyword var is hoisted and let and const does not allow hoisting.",
+      "ans":"Hoisting in JavaScript is a behavior in which a function or a variable can be used before declaration. For example,In terms of variables and constants, keyword var is hoisted and let and const does not allow hoisting."
 
 
     },
@@ -264,7 +264,7 @@
     },
     {
       "ques": "JavaScript object ",
-      "ans":"JavaScript object is a non-primitive data-type that allows you to store multiple collections of data.",
+      "ans":"JavaScript object is a non-primitive data-type that allows you to store multiple collections of data."
 
     },
     {
@@ -342,6 +342,36 @@
       "image":"js61"
 
     },
+    {
+      "ques": "JavaScript Number      ",
+      "image":"js62"
+
+    },
+    {
+      "ques": "+ Operator with Numbers      ",
+      "image":"js63"
+
+    },
+    {
+      "ques": "JavaScript NaN      ",
+      "image":"js64"
+
+    },
+    {
+      "ques": "JavaScript Infinity      ",
+      "image":"js65"
+
+    },
+    {
+      "ques": "JavaScript BifInt      ",
+      "image":"js66"
+
+    },
+    {
+      "ques": "JavaScript Number Methods      ",
+      "image":"js66"
+
+    }
 
 
 
