@@ -1,0 +1,418 @@
+{
+  "intro": [
+    {
+      "ques": "Formula simple interest",
+      "image":"for1"
+
+    },
+    {
+      "ques": "what is java",
+      "ans":"java is plateform independent lanugage and it similar like C++,Java is a popular programming language, created in 1995.,It is owned by Oracle      "
+
+    },
+    {
+      "ques": "rember point java",
+      "ans":"In Java, every application begins with a class name, and that class must match the filename. Every line of code that runs in Java must be inside a class. In our example, we named the class Main. A class should always start with an uppercase first letter.      Note: Java is case-sensitive: -MyClass- and -myclass- has different meaning.      "
+
+    },
+    {
+      "ques": "double quote",
+      "ans":"Note that we don't use double quotes  inside println() to output numbers. "
+
+    },
+    {
+      "ques": "Java Variables ",
+      "image":"ja22"
+
+    },
+    {
+      "ques": "finel Variables ",
+      "image":"ja23"
+
+    },
+    {
+      "ques": "The general rules for naming variables are:      ",
+      "image":"ja24"
+
+    },
+    {
+      "ques": "java datatype  ",
+      "image":"ja25",
+      "image1":"ja26",
+      "image2":"ja27"
+
+    },
+    {
+      "ques": "type of casting   ",
+      "image":"ja28"
+
+    },
+    {
+      "ques": "logical opertor  ",
+      "image":"ja29"
+
+    },
+    {
+      "ques": "short hand ifElse",
+      "image":"ja30"
+
+    },
+    {
+      "ques": "switch case",
+      "points": [
+        {
+          "point": "The switch expression is evaluated once.          "
+        },
+        {
+          "point": "The value of the expression is compared with the values of each case.          "
+        },
+        {
+          "point":"If there is a match, the associated block of code is executed.          "
+        },
+        {
+          "point":"The break and default keywords are optional, and will be described later in this chapter          "
+        }
+
+
+      ]
+
+
+    },
+    {
+      "ques": "while loop",
+      "ans":"Note: Do not forget to increase the variable used in the condition, otherwise the loop will never end!      ",
+      "image":"ja31"
+
+    },
+    {
+      "ques": "do while loop",
+      "ans":"The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true. ",
+      "image":"ja32"
+
+    },
+    {
+      "ques": "Java For Loop ",
+      "ans":"When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:      ",
+      "image":"ja33"
+
+    },
+    {
+      "ques": "Java For Each Loop ",
+      "ans":"There is also a \"for-each\" loop, which is used exclusively to loop through elements in an array:      ",
+      "image":"ja34"
+
+    },
+    {
+      "ques": "Break and continue ",
+      "ans":"break: can jump on loop ,Continue: continue with loop "
+
+
+    },
+    {
+      "ques": "Installtion",
+      "points": [
+        {
+          "point": "JDK (java development kit): need three things 1- JRE (java run time envirment) 2- compiler 3- java docs"
+        },
+        {
+          "point": "JVM : Java virtual machine : it is  part of JRE"
+        }
+
+      ]
+
+    },
+    {
+      "ques": "Symbols Used In Flowchart",
+      "image":"ja1"
+
+    },
+    {
+      "ques": "Add two numbers entered by the user.",
+       "image":"ja2"
+
+    },
+    {
+      "ques": "Find the largest among three different numbers entered by the user,",
+       "image":"ja2"
+
+    },
+    {
+      "ques": "Average of three number flowchart",
+       "image":""
+
+    },
+    {
+      "ques": "Largest of three number flowchart",
+       "image":""
+
+    },
+    {
+      "ques": "Check number postive or neagative or equal to zero ",
+       "image":""
+
+    },
+    {
+      "ques": "Valid tringle flow chart",
+      "ans":"A triangle is a valid triangle, If and only If, the sum of any two sides of a triangle is greater than the third side.",
+       "image":""
+
+    },
+    {
+      "ques": "Print number from a to n flow chart ",
+      "ans":"A triangle is a valid triangle, If and only If, the sum of any two sides of a triangle is greater than the third side.",
+       "image":""
+
+    },
+    {
+      "ques": "Find Product",
+      "ans":"You are given a single non-negative integer, N. You need to calculate and print N factorial (N!) N factorial is defined as the product of all integers from 1 to N (both inclusive)",
+       "image":""
+
+    },
+    {
+      "ques": "Print even number",
+      "ans":"",
+       "image":""
+
+    },
+    {
+      "ques": "check number is prime",
+      "ans":"",
+       "image":""
+
+    },
+    {
+      "ques": "Largest of N numers",
+      "ans":"",
+       "image":""
+
+    },
+    {
+      "ques": "check tringle flow chart :You are given the lengths of 3 sides of a valid triangle. You need to print any one of the following outputs depending on the triangle's nature. Print 1, if the triangle is equilateral Print 0, if it's isosceles      Print -1, if it's scalene",
+      "ans":"",
+       "image":""
+
+    },
+    {
+      "ques": "sum of evens flow chart:You are given a single positive integer, N. You need to calculate and print the sum of all even numbers till N(inclusive)",
+      "ans":"",
+       "image":""
+
+    },
+    {
+      "ques": "FInd GCD flow chart: You are given two numbers. You need to calculate and print their greatest common divisor (GCD).",
+      "ans":"",
+       "image":""
+
+    },
+    {
+      "ques": "All prime flow chart: You are given a single positive integer, N. You need to print all prime numbers that occur in the range 1 to N (both inclusive).",
+      "ans":"",
+       "image":""
+
+    },
+    {
+      "ques": "all Fibonacci flow chart: You are given a single non-negative integer, N. You need to print all numbers that: (i) occur in the range 0 to N (both inclusive)  (ii) are a part of the fibonacci sequence",
+      "ans":"",
+       "image":""
+
+    },
+    {
+      "ques": "member Fibonacci flow chart:You are given a single non-negative integer, N. You need to find out whether N is a part of the fibonacci sequence. Print -Yes- if it is and -No- if it's not.",
+          "ans":"",
+       "image":""
+
+    },
+    {
+      "ques": "How to work code in java ",
+       "image":"ja-5"
+
+    },
+    {
+      "ques": "8 bits = 1 bytes",
+       "image":"ja-5"
+
+    },
+    {
+      "ques": "Binary ",
+       "image":"flow 2 bits 0 and 1"
+
+    },
+    {
+      "ques": "Binary  number system  ",
+      "ans":"base two number system 0 and 1 and we call this bit "
+
+    },
+    {
+      "ques": "Binary base N  ",
+      "ans":"0 to n-1 "
+
+    },
+    {
+      "ques": "Binary decimal number system   ",
+      "ans":"0 to 9 "
+
+    },
+    {
+      "ques": "Binary conversion of int 10 ",
+      "image":"ja35"
+
+    },
+    {
+      "ques": "Binary to number ",
+      "image":"ja36"
+
+    },
+    {
+      "ques": "about main in java",
+      "image":"ja37"
+
+    },
+    {
+      "ques": "Primitive data type ",
+      "points": [
+        {
+          "point": "Int: 4 bytes (32 bits)"
+        },
+        {
+          "point": "short: 2 bytes"
+        },
+        {
+          "point":"long: 8 bytes"
+        },
+        {
+          "point":"Byte: 1 bytes"
+        },
+        {
+          "point":"Double: 8 bytes"
+        },
+        {
+          "point":"Flote: 4 bytes"
+        }
+
+      ]
+
+    },
+    {
+      "ques": "Correct way tak var ",
+      "points": [
+        {
+          "point": "1var :wrong"
+        },
+        {
+          "point": "var1: correct"
+        },
+        {
+          "point":"var@1:wrong"
+        },
+        {
+          "point":"2_var:wrong"
+        }
+
+
+      ]
+
+    },
+    {
+      "ques": "Java flow BODMAS rule but some Associativity rule need to rember ",
+      "ans":"try to understandby below image",
+       "image":"java_1"
+
+    },
+    {
+      "ques": "Jquestion ",
+       "image":"ja-7"
+    },
+    {
+      "ques": "Jquestion ",
+       "image":"ja-8"
+    },
+    {
+      "ques": "Jquestion ",
+       "image":"ja-9"
+    },
+    {
+      "ques": "Jquestion ",
+       "image":"ja-10"
+    },
+    {
+      "ques": "Jquestion ",
+       "image":"ja-11"
+    },
+    {
+      "ques": "Jquestion ",
+       "image":"ja-12"
+    },
+    {
+      "ques": "Jquestion ",
+       "image":"ja-13"
+    },
+    {
+      "ques": "Jquestion ",
+       "image":"ja-14"
+    },
+    {
+      "ques": "Jquestion ",
+       "image":"ja-15"
+    },
+    {
+      "ques": "input :enter student name and 3 subjects  marks output: student name and Averge of three subject marks ",
+       "image":"ja16"
+    },
+    {
+      "ques": "Binary number system",
+       "image":"ja17"
+    },
+    {
+      "ques": "Binary number store and negative number store : not confirm read ",
+       "image":"ja17"
+    },
+    {
+      "ques": "Binary number store and negative number store : not confirm read ",
+       "image":""
+    },
+    {
+      "ques": "short Data type",
+       "image":"ja18"
+    },
+    {
+      "ques": "Byte",
+       "image":"ja19"
+    },
+    {
+      "ques": "Total sallery",
+       "image":"ja20"
+    },
+    {
+      "ques": "Multification table",
+       "image":"multi"
+    },
+    {
+      "ques": "sum even odd",
+       "image":"evenodd"
+    },
+    {
+      "ques": "Factor",
+       "image":"factor"
+    },
+    {
+      "ques": "find power of number",
+       "image":"power"
+    },
+    {
+      "ques": "fahenden to celcious",
+       "image":"ja21"
+    },
+    {
+      "ques": "find charechter case",
+       "image":"charechter"
+    }
+
+
+
+
+
+
+
+  ]
+}

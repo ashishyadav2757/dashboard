@@ -1,0 +1,37 @@
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item" *ngFor="let data of introData; let i = index ">
+    <h2 class="accordion-header" [id]="'heading'+i">
+      <button
+        class="accordion-button"
+        type="button"
+        data-bs-toggle="collapse"
+        [attr.data-bs-target]="'#collapse'+i"
+        aria-expanded="true"
+        [attr.aria-controls]="'collapse'+i"
+        [ngClass]="{'collapsed': i != 0}"
+      >
+      {{i+1}}
+        {{data.ques}}
+      </button>
+    </h2>
+    <div
+      [id]="'collapse'+i"
+      class="accordion-collapse collapse"
+      [attr.aria-labelledby]="'heading'+1"
+      data-bs-parent="#accordionExample"
+      [ngClass]="{'show': i == 0}"
+    >
+      <div class="accordion-body">
+        {{data.ans}}
+        <ul *ngIf="data.points">
+          <li *ngFor="let  item of data.points">{{item.point}}</li>
+        </ul>
+        <img *ngIf="data.image" [src]="'assets/images/' + data.image + '.PNG'">
+        <img *ngIf="data.image1" [src]="'assets/images/' + data.image1 + '.PNG'">
+        <img *ngIf="data.image2" [src]="'assets/images/' + data.image2 + '.PNG'">
+        <img *ngIf="data.image3" [src]="'assets/images/' + data.image3 + '.PNG'">
+      </div>
+    </div>
+  </div>
+
+</div>

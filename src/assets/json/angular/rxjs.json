@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "ques": "why use rxjs",
+      "ans": "handle asycchronous calls with multiple events"
+    },
+
+
+    {
+      "ques": "Flow rxjs",
+      "image1":"rx1"
+    },
+    {
+      "ques": "observable and observer",
+      "image1":"rx2"
+    },
+    {
+      "ques": "suscribe and unsuscribe",
+      "image1":"suscribe_unsc.."
+    },
+    {
+      "ques": "Pipe and opertor in rxjs",
+      "ans":"why like rxjs:because here we can do very less code, inside the pipe we are using rxjs opertor ",
+      "image":"pipe",
+      "image1":"pipeandoperotr"
+    }
+
+
+  ]
+}

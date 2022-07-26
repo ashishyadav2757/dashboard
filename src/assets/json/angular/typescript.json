@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "ques": "Print a console in typescript : Demo-1",
+      "ans": "const message:string = 'hello'; console.log(message)"
+    },
+    {
+      "ques": "Define datatype in TS",
+      "ans": " like let a:number 10"
+    },
+    {
+      "ques": "Condition in TS: Demo-2",
+      "ans": "Ternari opertor : a >b ? \"true part\":\"false part\""
+    },
+    {
+      "ques": " Looping Through array",
+      "points": [
+        {
+          "point": "normal for loop :Demo-3"
+        },
+        {
+          "point": "for of lopp: It is provide array value  :Demo-4"
+        },
+        {
+          "point": "for in loop:It is provide array index :Demo-5"
+        },
+        {
+          "point": "while loop : Dem0-6"
+        }
+
+      ]
+    },
+    {
+      "ques": "Function and parameter in ts :see demo-7",
+      "image1":"demo7",
+      "image2":"demo7a"
+    },
+    {
+      "ques": "Interface in ts :see demo-8",
+      "image1":"demo8",
+      "image2":"demo8a"
+    },
+    {
+      "ques": "Class,constructor,Interface: DEMO-9a,9b,9c",
+      "image":"demo9",
+      "image1":"demo9a",
+      "image2":"demo9b"
+    },
+    {
+      "ques": "Class: have two keyword : public and private",
+      "points": [
+        {
+          "point": "Public : can be used by  anybody"
+        },
+        {
+          "point": "Private:only by class used"
+        }
+
+
+      ]
+    },
+    {
+      "ques": "Decorators:it can use everywhere on classes,function,constructor,geeterand setter,properties,",
+      "image":"demo10"
+
+    }
+
+
+  ]
+}

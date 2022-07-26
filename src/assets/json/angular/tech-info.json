@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "ques": "Understand Rx js",
+      "links": "https://rxviz.com/examples/input-element"
+    },
+    {
+      "ques": "Create Planing graph",
+      "links": "https://coggle.it/"
+    },
+    {
+      "ques": "missing webpageon server ",
+      "links": "https://web.archive.org/"
+    },
+    {
+      "ques": "Remove index.php redirct to domain",
+      "image": "tech1"
+    },
+    {
+      "ques": "add https and www",
+      "image": "tech2"
+    },
+    {
+      "ques": "dynmaic svg generator",
+      "links": "https://maxwellito.github.io/vivus-instant/"
+    },
+    {
+      "ques": "node module run timespace increse",
+      "ans": "node --max_old_space_size=9048 ./node_modules/@angular/cli/bin/ng serve"
+    },
+    {
+      "ques": "local put localstrong",
+      "image": "tech3"
+    },
+    {
+      "ques": "AWS path for nodemodules",
+      "ans": "aws codeartifact login --tool npm --repository oneJfHeader --domain jf-one-modules --domain-owner 188097494660"
+    },
+    {
+      "ques": "GIt base check root",
+      "ans": "pwd "
+    },
+    {
+      "ques": "excel tutorail",
+      "links": "https://www.excel-easy.com/ "
+    },
+    {
+      "ques": "free api",
+      "links": "https://randomuser.me/ "
+    },
+    {
+      "ques": "json formatter",
+      "links": "https://jsonformatter.org/ "
+    }
+
+
+
+
+
+  ]
+}

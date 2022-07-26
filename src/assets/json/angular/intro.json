@@ -1,0 +1,296 @@
+{
+  "intro": [
+    {
+      "ques": "Why angular is complex",
+      "ans": "because of some jargon keyword little bit complex like Component,module,directive,pipes ,dependency injection , services ,routing"
+    },
+    {
+      "ques": " Different between framework and library ",
+      "ans": " Framework have some rules so we need to follow , library have don’t much of rules "
+    },
+    {
+      "ques": " Angular run in local needs ",
+      "points": [
+        {
+          "point": "code editor"
+        },
+        {
+          "point": "node js"
+        },
+        {
+          "point": "NPM (node package manager), it is come default whhen we install node js"
+        },
+        {
+          "point": "NG (it is comes form angular two word ng )"
+        }
+      ]
+    },
+
+    {
+      "ques": "Install angular in local ",
+
+      "points":[
+        {
+          "point": "npm install -g @angular/cli"
+        },
+        {
+          "point": "-g :Mean it is install globally"
+        },
+        {
+          "point": "On Windows client computers, the execution of PowerShell scripts is disabled by default. To allow the execution of PowerShell scripts, which is needed for npm global binaries, you must set the following execution policy:"
+        },
+        {
+          "point": "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned"
+
+        }
+      ]
+    },
+    {
+      "ques": "Angular important command ",
+      "points":[
+        {
+          "point": "Create app: ng new my-app"
+        },
+        {
+          "point": "-Run project and open:ng serve –open"
+        },
+        {
+          "point": "check config: ng config (show angular.json configration)"
+        }
+
+      ]
+    },
+
+    {
+      "ques": "check version ",
+      "points":[
+        {
+          "point": "node: node –v "
+        },
+        {
+          "point": "npm: npm –v "
+        },
+        {
+          "point": "Angular: ng –v "
+        }
+
+      ]
+    },
+    {
+      "ques": "Angular feature",
+      "points":[
+        {
+          "point": "Progressive Web Apps "
+        },
+        {
+          "point": "Native"
+        },
+        {
+          "point": "Desktop"
+        },
+        {
+          "point": "Code Generation"
+        },
+        {
+          "point": "Universal"
+        },
+        {
+          "point": "Code Splitting"
+        },
+        {
+          "point": "Templates"
+        },
+        {
+          "point": "Angular CLI"
+        },
+        {
+          "point": "IDEs"
+        }
+
+      ]
+    },
+    {
+      "ques": "Angular file structure ",
+      "points":[
+        {
+          "point": "tsconfig: All 4 these files for  typescript configuration ,typescript finally transfiled on javascript "
+        },
+        {
+          "point": "package.json: technically it is loaded first time in project ,it is include nameof the project ,versionandscriptfor run project,dependencies,dev dependecies"
+        },
+        {
+          "point": "package-lock.json: Manage log of pacakage"
+        },
+        {
+          "point": "browserlint: This file is used by the build system to adjust CSS and JS output to support the specified browsers below."
+        },
+        {
+          "point": "Angular.json:configration file "
+        },
+        {
+          "point": "editorConfig: editror config"
+        },
+        {
+          "point": "node_module:nodemodule have  package"
+        },
+        {
+          "point": "e2e: for testing"
+        },
+        {
+          "point": "polifiles:Provides polyfill scripts for browser support.          "
+        },
+        {
+          "point": "test.ts:The main entry point for your unit tests, with some Angular-specific configuration. You don't typically need to edit this file.          "
+        },
+        {
+          "point":"main.ts:main file for script entry"
+        }
+
+
+      ]
+    },
+    {
+      "ques": "Interpolation and event Binding ",
+      "points":[
+        {
+          "point": "{{}}:interpolation"
+        },
+        {
+          "point": "Event Binding:()"
+        }
+
+
+
+      ],
+      "image":"eventbinding_interpolation"
+    },
+    {
+      "ques": "Core concept ",
+      "points":[
+        {
+          "point": "plateformBrowserDynamic: it is used for start angular app(bootstrap angular app), it is used in main.ts"
+        },
+        {
+          "point": "BrowserModule from platform-browser: it is file which is used in module"
+        },
+        {
+          "point": "ngModule: it is decorator for used create Module"
+        },
+        {
+          "point": "ngModule: we can pass object ,default provided angular imports,declaration,bootstrap,export"
+        },
+        {
+          "point": "Polifills: 1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers. 2. Application imports. Files imported after ZoneJS that should be loaded before your main  file. "
+        },
+        {
+          "point": "Index: Here we call only one selector because it SPA "
+        }
+
+      ],
+      "image":"decorator"
+    },
+    {
+      "ques": "waht mean of ~ bootstrap  ",
+      "ans": "means files search on root,if you want to path ../ back you can also use till sign"
+    },
+    {
+      "ques": "parent to child send value by input",
+      "image1":"parent",
+
+      "image":"child"
+    },
+    {
+      "ques": "Child to parent send value by outPut",
+      "image1":"p1",
+
+      "image":"p2",
+      "image2":"p3",
+      "image3":"p4"
+    },
+    {
+      "ques": "angular swich case",
+      "image1":"switchCase"
+    },
+    {
+      "ques": "Services",
+      "ans":"Services are resposible for manupulating data, services have all bussniess login"
+    },
+    {
+      "ques": "injectable in services",
+      "ans":"injectable root mean , it is accesable for all app",
+      "image1":"injectable"
+    },
+    {
+      "ques": "pipe in angular",
+      "ans":"a lot of pipes",
+      "image1":"pipesAngular"
+    },
+    {
+      "ques": "Life circle hook",
+      "ans":"ngOninit etc"
+    },
+    {
+      "ques": "Form in angular",
+      "ans":"two type form 1-temple driven file 2-reactive form,Reactive form used formControlal , and it is so powerfull because we can do validation  also ",
+      "points":[
+        {
+          "point": "FOr using any form need form module in module file"
+        },
+        {
+          "point": "use form-builder ,formFroup,Validator"
+        }
+
+
+      ]
+    },
+    {
+      "ques": "Binding in angular",
+      "points":[
+        {
+          "point": "Interpolation Binding"
+        },
+        {
+          "point": "Propety Binding :Please make a note that when you need to set element properties to non-string data values, you must use Property binding and not Interpolation."
+        },
+        {
+          "event": "The Event binding: feature lets you listen to certain events such as mouse movements, keystrokes, clicks, etc. In Angular, event binding can be achieved by specifying the target event name within regular brackets on the left of an equal to ( = ) sign, and the template statement on the right side within quotes (” “)."
+        },
+        {
+          "event": "two way binding: Angular allows two-way data binding that will allow your application to share data in two directions i.e. from the components to the templates and vice versa."
+        }
+
+
+      ]
+    },
+    {
+      "ques": "Different between ng-container and ng-content",
+      "points":[
+        {
+          "point": "ng-container: The reason why many of us write this code is the inability to use multiple structural directives on a single host element in Angular. Now this code works fine but it introduces several extra empty <div> in the DOM if item.id is a falsy value which might not be required. "
+        },
+        {
+          "point": "ng-content:They are used to create configurable components. This means the components can be configured depending on the needs of its user. This is well known as Content Projection. Components that are used in published libraries make use of <ng-content> to make themselves configurable."
+        },
+        {
+          "point": "ng-template:As the name suggests the <ng-template> is a template element that Angular uses with structural directives (*ngIf, *ngFor, [ngSwitch] and custom directives). As these elements work only with a structural directive see-demo"
+        },
+        {
+          "point": "Ng-templeteOutlet:…They are used as a container to templates that can be reused at multiple places. We will cover more on this in a later section of this article.…There’s another use case where it is used to inject a template dynamically into a page. I’ll cover this use case in the last section of this article."
+        }
+
+
+      ],
+      "image":"ng-templete",
+      "image1":"ng-container",
+      "image2":"ng-content",
+      "image3":"ngTempleteOulet"
+
+    },
+    {
+      "ques": "FireBase login ",
+      "ans":"Please see Application Project"
+    }
+
+
+  ]
+}

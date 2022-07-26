@@ -1,0 +1,113 @@
+<div class="accordion" id="accordionExample">
+
+  <!-- to do app -->
+ <!-- Tic tack app -->
+
+ <div class="accordion-item">
+  <h2 class="accordion-header" id="headingFive">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+      To do Application
+    </button>
+  </h2>
+  <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+     <app-to-app></app-to-app>
+     </div>
+  </div>
+</div>
+
+  <!-- Tic tack app -->
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="headingFour">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+      TIC TAC APP
+    </button>
+  </h2>
+  <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <div class="align-self-center d-flex">
+     <div class="ticTac">
+      <div [hidden]="isCross" class="alert alert-danger" role="alert">
+    Player one term
+      </div>
+      <div [hidden]="!isCross" class="alert alert-danger" role="alert">
+        Player two term
+          </div>
+      <ul class="d-flex flex-wrap">
+        <li *ngFor="let item of itemArray; index as i " >
+<div class="" (click)="handelCLick(i)">
+          <app-tic-tac-icon [iconName]="item"></app-tic-tac-icon>
+        </div>
+        </li>
+
+      </ul>
+    </div>
+    <div class="rightMessage">
+      <h3 *ngIf="winMessage">Game over {{ winMessage }}</h3>
+      <button class="btn-primary " (click)="reloadGame()">reload game</button>
+    </div>
+     </div>
+     </div>
+  </div>
+</div>
+  <!-- counter App -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       Counter App
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <h1>The count is : {{counter}}</h1>
+        <button (click)="increase()" class="btn btn-primary">Increase</button>
+        <button (click)="decrease()" class="btn btn-primary">Decrease</button>
+        <button (click)="reset()" class="btn btn-primary">Reset</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Generate word -->
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="headingThree">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+      Generate word
+    </button>
+  </h2>
+  <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <h1>Word Limit:{{wordLimit}}</h1>
+     <input type="range" min="1" max="50" value="10" (change)="wordLimitRange($event)">
+     <button class="btn btn-primary" (click)="generateWord()">Generate Word</button>
+     <div *ngIf="words" class="wrap_text">
+      {{words}}
+     </div>
+    </div>
+  </div>
+</div>
+<!-- Generate Random Country -->
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="headingThree">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+      Generate Random Country
+    </button>
+  </h2>
+  <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <h1>Contry Limit: {{countryCount}}</h1>
+     <input type="range" min="1" max="50" value="10" (change)="count($event.target)">
+     <button class="btn btn-primary" (click)="countryList()">Generate Country</button>
+     <button class="btn btn-primary" (click)="random()">Generate random Country</button>
+     <div *ngIf="generatedCountry" class="wrap_text">
+     {{generatedCountry}}
+     </div>
+    </div>
+  </div>
+</div>
+
+
+</div>

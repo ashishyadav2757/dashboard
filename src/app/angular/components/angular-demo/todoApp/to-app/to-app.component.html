@@ -1,0 +1,19 @@
+
+<app-todo-form></app-todo-form>
+<ul>
+  <li class="d-flex justify-content-between" *ngFor="let item of todos">
+<span>
+  <input (change)="changeStatusData(item)" type="checkbox" [checked]="item.iscompleted">
+</span>
+<span [ngClass]="{markedDone:this.item.iscompleted}">
+ {{item.title | uppercase}}
+</span>
+
+<span>
+  {{item.date | date}}
+</span>
+<span (click)="deleteRodo(item)">* Delete</span>
+
+  </li>
+</ul>
+

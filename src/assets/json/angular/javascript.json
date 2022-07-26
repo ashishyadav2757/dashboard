@@ -1,0 +1,349 @@
+{
+  "intro": [
+    {
+      "ques": "different ways to run JavaScript ",
+      "points": [
+        {
+          "point": "Using console tab of web browsers"
+        },
+        {
+          "point": "Using Node.js (node hello.js command in cmd)"
+        },
+        {
+          "point": "By creating web pages"
+        }
+      ]
+    },
+    {
+      "ques": "javascript variable ",
+      "ans":"In programming, a variable is a container (storage area) to hold data. exp: let num = 5;"
+
+    },
+    {
+      "ques": "JavaScript var Vs let",
+      "ans":"Both var and let are used to declare variables. However, there are some differences between them.",
+       "image1":"js1"
+    },
+    {
+      "ques": "JavaScript Initialize Variables      ",
+      "ans":"We use the assignment operator = to assign a value to a variable.let x;  x = 5;  "
+    },
+    {
+      "ques": "JavaScript undeifne Variables      ",
+      "ans":"If you use a variable without initializing it, it will have an undefined value.    ",
+      "image1":"js2"
+    },
+    {
+      "ques": "Rules for Naming JavaScript Variables      ",
+      "ans":"If you use a variable without initializing it, it will have an undefined value.    ",
+      "points": [
+        {
+          "point": "Variable names must start with either a letter, an underscore _, or the dollar sign $"
+        },
+        {
+          "point": "Variable names cannot start with numbers. "
+        },
+        {
+          "point": "JavaScript is case-sensitive. So y and Y are different variables. "
+        },
+        {
+          "point": "Keywords cannot be used as variable names. For example, "
+        }
+      ]
+    },
+    {
+      "ques": "JavaScript Constants",
+      "ans":"The const keyword was also introduced in the ES6(ES2015) version to create constants.Once a constant is initialized, we cannot change its value. Also, you cannot declare a constant without initializing it. ",
+      "image1":"js3"
+
+    },
+    {
+      "ques": "JavaScript Data Types ",
+      "ans":"There are eight basic data types in JavaScript. Note: The Object data type (non-primitive type) can store collections of data, whereas primitive data type can only store a single data.",
+      "image1":"js4"
+
+    },
+    {
+      "ques": "JavaScript String",
+      "image1":"js5"
+
+    },
+    {
+      "ques": "JavaScript number",
+      "image1":"js6"
+
+    },
+    {
+      "ques": "JavaScript BigInt",
+      "image1":"js7"
+
+    },
+    {
+      "ques": "JavaScript Boolean",
+      "image1":"js8"
+
+    },
+    {
+      "ques": "JavaScript undefined",
+      "image1":"js9"
+
+    },
+    {
+      "ques": "JavaScript null      ",
+      "image1":"js10"
+
+    },
+    {
+      "ques": "JavaScript Symbol  ",
+      "image1":"js11"
+
+    },
+    {
+      "ques": "JavaScript Object      ",
+      "image1":"js12"
+
+    },
+    {
+      "ques": "JavaScript typeof      ",
+      "image1":"js13"
+
+    },
+    {
+      "ques": "JavaScript Operators",
+      "image1":"js14"
+
+    },
+    {
+      "ques": "JavaScript Assignment Operators",
+      "image1":"js15"
+    },
+    {
+      "ques": "JavaScript Arithmetic Operator ",
+      "image1":"js16"
+    },
+    {
+      "ques": "JavaScript Comparison Operators",
+      "ans":"Comparison operators compare two values and return a boolean value, either true or false",
+      "image1":"js17"
+    },
+    {
+      "ques": "JavaScript Logical Operators      ",
+      "ans":"Logical operators perform logical operations and return a boolean value, either true or false. For example",
+      "image1":"js18"
+    },
+    {
+      "ques": "JavaScript Bitwise Operators      ",
+      "image1":"js19"
+    },
+    {
+      "ques": "JavaScript String Operators      ",
+      "ans":"In JavaScript, you can also use the + operator to concatenate (join) two or more strings.     "
+    },
+    {
+      "ques": "Other JavaScript Operators      ",
+      "image1":"js20"
+    },
+    {
+      "ques": "JavaScript Type Conversions ",
+      "ans":"In programming, type conversion is the process of converting data of one type to another. For example: converting String data to Number.",
+      "image1":"js21"
+    },
+    {
+      "ques": "Example 1: Implicit Conversion to String",
+      "image1":"js22"
+    },
+    {
+      "ques": "Example 2:  Implicit Conversion to Number",
+      "image1":"js23"
+    },
+    {
+      "ques": "Example 3: Non-numeric String Results to NaN: Example 4: Implicit Boolean Conversion to Number      ",
+      "image2":"js24"
+    },
+    {
+      "ques": "Example 5: null Conversion to Number ,Example 6: undefined used with number, boolean or null      ",
+      "image2":"js25"
+    },
+    {
+      "ques": "JavaScript Explicit Conversion      ",
+      "ans":"You can also convert one data type to another as per your needs. The type conversion that you do manually is known as explicit type conversion In JavaScript, explicit type conversions are done using built-in methods. Here are some common methods of explicit conversions."
+    },
+    {
+      "ques": "1. Convert to Number Explicitly   ",
+      "image1":"js26",
+      "image2":"js27",
+      "image3":"js28"
+    },
+    {
+      "ques": "2. Convert to String Explicitly      ",
+      "ans":"To convert other data types to strings, you can use either String() or toString(). For example,",
+      "image1":"js29",
+      "image2":"js30"
+    },
+    {
+      "ques": "3. Convert to Boolean Explicitly      ",
+      "ans":"To convert other data types to a boolean, you can use Boolean(). In JavaScript, undefined, null, 0, NaN, '' converts to false. For example ",
+      "image1":"js31"
+    },
+    {
+      "ques": "JavaScript Type Conversion Table      ",
+      "ans":"The table shows the conversion of different values to String, Number, and Boolean in JavaScript.",
+      "image1":"js32"
+    },
+    {
+      "ques": "JavaScript Comparison and Logical Operators   ",
+      "ans":"Comparison operators compare two values and give back a boolean value: either true or false. Comparison operators are used in decision making and loops.",
+      "image1":"js33"
+    },
+    {
+      "ques": "JavaScript Logical Operators      ",
+      "ans":"Logical operators perform logical operations: AND, OR and NOT.      ",
+      "image1":"js34"
+    },
+    {
+      "ques": "JavaScript if...else Statement      ",
+      "image1":"js35",
+      "image2":"js36",
+      "image3":"js37",
+      "image4":"js38"
+    },
+    {
+      "ques": "JavaScript for loop ",
+      "image1":"js39"
+
+    },
+    {
+      "ques": "JavaScript while ",
+      "image1":"js40"
+    },
+    {
+      "ques": "JavaScript do while ",
+      "image1":"js41"
+    },
+    {
+      "ques": "break ",
+      "ans":"The break statement is used to terminate the loop immediately when it is encountered.      ",
+      "image1":"js42"
+    },
+    {
+      "ques": "continue ",
+      "ans":"The continue statement is used to skip the current iteration of the loop and the control flow of the program goes to the next iteration.   ",
+      "image1":"js43"
+    },
+    {
+      "ques": "switch ",
+      "ans":"The JavaScript switch statement is used in decision making. he switch statement evaluates an expression and executes the corresponding body that matches the expression's result.      ",
+      "image1":"js44"
+    },
+    {
+      "ques": "fuction ",
+      "ans":"A function is a block of code that performs a specific task.",
+
+    },
+    {
+      "ques": "fuction parameter",
+      "image":"js45"
+
+    },
+    {
+      "ques": "let and var",
+      "image":"js46"
+
+    },
+    {
+      "ques": "JavaScript Hoisting ",
+      "ans":"Hoisting in JavaScript is a behavior in which a function or a variable can be used before declaration. For example,In terms of variables and constants, keyword var is hoisted and let and const does not allow hoisting.",
+
+
+    },
+    {
+      "ques": "JavaScript Recursion ",
+      "ans":"Recursion is a process of calling itself. A function that calls itself is called a recursive function.",
+      "image":"js47"
+
+    },
+    {
+      "ques": "JavaScript object ",
+      "ans":"JavaScript object is a non-primitive data-type that allows you to store multiple collections of data.",
+
+    },
+    {
+      "ques": "JavaScript Constructor Function ",
+      "ans":"In JavaScript, a constructor function is used to create objects. For example,      ",
+      "image":"js48"
+    },
+    {
+      "ques": "Create Multiple Objects with Constructor Function      ",
+      "ans":"In JavaScript, you can create multiple objects from a constructor function. For example,    ",
+      "image":"js49"
+    },
+    {
+      "ques": "JavaScript this Keyword      ",
+      "ans":"In JavaScript, when this keyword is used in a constructor function, this refers to the object when the object is created. For example, ",
+      "image":"js50"
+    },
+    {
+      "ques": "JavaScript Object Prototype      ",
+      "ans":"You can also add properties and methods to a constructor function using a prototype. For example, ",
+      "image":"js51"
+    },
+    {
+      "ques": "JavaScript Getter and Setter      ",
+      "ans":"In JavaScript, there are two kinds of object properties:Data properties and Accessor properties   not understand   "
+    },
+    {
+      "ques": "create array  ",
+      "ans":"1. Using an array literal 2. Using the new keyword      ",
+      "image":"js52"
+    },
+    {
+      "ques": "Add an Element to an Array      ",
+      "ans":"1. Using an array literal 2. Using the new keyword      ",
+      "image":"js53"
+
+    },
+    {
+      "ques": "Remove an Element from an Array      ",
+      "image":"js54"
+
+    },
+    {
+      "ques": "Array Methods      ",
+      "image":"js55"
+
+    },
+    {
+      "ques": "Create JavaScript Strings      ",
+      "image":"js56"
+
+    },
+    {
+      "ques": "Access String Characters      ",
+      "image":"js57"
+
+    },
+    {
+      "ques": "JavaScript Strings are immutable ",
+      "image":"js58"
+
+    },
+    {
+      "ques": "JavaScript Multiline Strings   ",
+      "image":"js59"
+
+    },
+    {
+      "ques": "JavaScript String Objects ",
+      "image":"js60"
+
+    },
+    {
+      "ques": "JavaScript String Methods  ",
+      "image":"js61"
+
+    },
+
+
+
+  ]
+}

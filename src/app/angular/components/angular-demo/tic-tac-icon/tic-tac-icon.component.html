@@ -1,0 +1,18 @@
+<div [ngSwitch]="iconName">
+  <div *ngSwitchCase="'empty'">
+    <i [innerHtml]="svgIcon['pencil']"></i>
+  </div>
+<div *ngSwitchCase="'cross'">
+  <i [innerHtml]="svgIcon['cross']"></i>
+</div>
+<div *ngSwitchCase="'circle'">
+  <i [innerHtml]="svgIcon['circle']"></i>
+</div>
+
+<div *ngSwitchDefault>
+  <span>Something is wrong</span>
+</div>
+
+</div>
+
+
