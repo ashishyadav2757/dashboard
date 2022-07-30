@@ -25,6 +25,7 @@ import { JavascriptComponent } from './javascript/component/javascript/javascrip
 import { JavacriptNavComponent } from './javascript/javascript-nav/javascript-nav.component';
 
 import { JavaComponent } from './java/component/java/java.component';
+import { Java2Component } from './java/component/java2/jav2.component';
 import { JavaNavComponent } from './java/java-nav/java-nav.component';
 
 @NgModule({
@@ -47,7 +48,8 @@ import { JavaNavComponent } from './java/java-nav/java-nav.component';
     JavascriptComponent,
     JavacriptNavComponent,
     JavaComponent,
-    JavaNavComponent
+    JavaNavComponent,
+    Java2Component
   ],
   imports: [
     BrowserModule,
