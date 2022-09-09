@@ -293,6 +293,10 @@
     {
       "ques": "FireBase login ",
       "ans":"Please see Application Project"
+    },
+    {
+      "ques": "ngModal Directive ",
+      "ans":"it is required formModule then it work "
     }
 
 
